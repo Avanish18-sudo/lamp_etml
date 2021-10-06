@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+function chgimg(x)
+{
+i1.src=x;
+}
+</script>
+</head>
+<body background="red">
+<center>
+<h2>5th International Conference on Emerging Technologies: Micro to Nano (ETMN-2021)</h2>
+<img id="image" src="Prof G K Prabhu.jpg">
+<img id="image" src="Prof N N Sharma.jpg">
+<img id="image" src="Prof Ashutosh Sharma.jpg">
+<img id="image" src="Prof Adam skorek.jpg">
+<img id="image" src="Prof Ahmed Lakhssassai.jpg">
+<img id="image" src="Dr Siddiqui.jpg"><br>
+<input type="button" value="Prof G K Prabhu" onclick="chgimg('l2.png')" />
+<input type="button" value="Prof N. N. Sharma" onclick="chgimg('l3.png')" />
+<input type="button" value="Prof Ashutosh Sharma " onclick="chgimg('l4.png')" />
+<input type="button" value="Prof Adam skorek" onclick="chgimg('l4.png')" />
+<input type="button" value="Prof Ahmed Lakhssassai" onclick="chgimg('l5.png')" />
+<input type="button" value="Dr Shahbaz A Siddiqui" onclick="chgimg('l5.png')" /><br>
+
+<input type="button" value="President, MUJ" onclick="chgimg('l2.png')" />
+<input type="button" value="Pro-President, MUJ" onclick="chgimg('l3.png')" />
+<input type="button" value="Institute Chair Professor, IIT Kanpur" onclick="chgimg('l4.png')" />
+<input type="button" value="Université du Québec à Trois-Rivières" onclick="chgimg('l4.png')" />
+<input type="button" value="UQO, Canada" onclick="chgimg('l5.png')" />
+<input type="button" value="HoD Mechatronics, MUJ" onclick="chgimg('l5.png')" /><br>
+
+<img id="image" src="background.png">
+<img id="i1" src="l1.png"  /><br>
+<input type="reset" value="RESET" onclick="chgimg('l1.png')" />
+<b></b><br><br>
+</center>
+</body>
+</html>
